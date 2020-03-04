@@ -1,5 +1,5 @@
 // Getting conversion data here
-this.onInstallConversionDataCanceller = appsFlyer.onInstallConversionData(
+var onInstallConversionDataCanceller = appsFlyer.onInstallConversionData(
      (data) => {
       console.log("GCD")
       console.log(data)
